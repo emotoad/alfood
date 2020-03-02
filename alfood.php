@@ -72,8 +72,8 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                                     echo "\n";
 
                                     // SANTAI11
-                                        echo "\e[96m[!] Proses Reedem Voucher 20+10 : GOFOODSANTAI19 \n";
-                                        $data4 = '{"promo_code":"GOFOODSANTAI19"}';
+                                        echo "\e[96m[!] Proses Reedem Voucher 20+10 : GOFOOD021120A \n";
+                                        $data4 = '{"promo_code":"GOFOOD021120A"}';
                                         $claim1 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data4, $headers);
                                         $claims1 = json_decode($claim1[0]);
                                         if($claims1->success == true) 
@@ -91,8 +91,8 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                                                             echo "\n";
 
                                                             // SANTAI08
-                                                                echo "\e[96m[!] Proses Redeem Voucher 15+10 : GOFOODSANTAI11 \n";
-                                                                $data5 = '{"promo_code":"GOFOODSANTAI11"}';
+                                                                echo "\e[96m[!] Proses Redeem Voucher 15+10 : GOFOOD021102A \n";
+                                                                $data5 = '{"promo_code":"GOFOOD021102A"}';
                                                                 $claim2 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data5, $headers);
                                                                 $claims2 = json_decode($claim2[0]);
                                                                 if($claims2->success == true) 
@@ -110,8 +110,8 @@ $headers[] = 'X-Location: -6.405821,106.064193';
                                                                                     echo "\n";
 
                                                                                     // SANTAI08
-                                                                                        echo "\e[96m[!] Proses Redeem Voucher 10+10 : GOFOODSANTAI08 \n";
-                                                                                        $data6 = '{"promo_code":"GOFOODSANTAI08"}';
+                                                                                        echo "\e[96m[!] Proses Redeem Voucher 10+10 : COBAGORIDE \n";
+                                                                                        $data6 = '{"promo_code":"COBAGORIDE"}';
                                                                                         $claim3 = curl('https://api.gojekapi.com/go-promotions/v1/promotions/enrollments', $data6, $headers);
                                                                                         $claims3 = json_decode($claim3[0]);
                                                                                         if($claims3->success == true) 
